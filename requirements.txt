@@ -1,0 +1,27 @@
+# MedVerify project dependencies
+# Install: pip install -r requirements.txt
+
+# ── AI model core ─────────────────────────────────────────────────────────────
+# Hugging Face Transformers (MedGemma support)
+transformers>=4.44.0
+
+# PyTorch (CPU build; for GPU see https://pytorch.org/get-started/locally/)
+# CPU: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# GPU (CUDA 12.1): pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+
+# Accelerate (required for MedGemma)
+accelerate>=0.26.0
+
+# Image handling (MedGemma multimodal)
+Pillow>=10.0.0
+
+# sentencepiece (tokenizer dependency)
+sentencepiece>=0.1.99
+
+# ── Web UI ───────────────────────────────────────────────────────────────────
+streamlit>=1.38.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+# requests for image download (e.g. when testing)
+requests>=2.31.0
