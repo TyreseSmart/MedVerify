@@ -1,15 +1,3 @@
----
-title: MedVerify
-emoji: 🩺
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: "1.38.0"
-python_version: "3.10"
-app_file: app.py
-pinned: false
----
-
 # 🩺 MedVerify — Medical Misinformation Detection
 
 A medical misinformation detection platform powered by **Google MedGemma 1.5-4B**, helping users identify medical myths and misleading health claims on social media.
